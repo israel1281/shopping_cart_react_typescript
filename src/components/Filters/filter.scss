@@ -1,0 +1,71 @@
+.filterContainer {
+  .filterTitle {
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+  .checkBox {
+    //  display: inline-block;
+    // margin-bottom: 10px;
+    label {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      font-size: 22px;
+      user-select: none;
+      width: 35px;
+      height: 35px;
+      font-size: 0.8em;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      border-radius: 50%;
+      line-height: 35px;
+      text-align: center;
+
+      &:hover input ~ .checkmark {
+        border: 1px solid white;
+      }
+
+      input:focus-visible ~ .checkmark {
+        box-sizing: border-box;
+        line-height: 30px;
+        border: 3px solid black;
+      }
+
+      & input:checked ~ .checkmark {
+        background-color: white;
+        color: #ececec;
+      }
+
+      & input:checked ~ .checkmark:after {
+        display: block;
+      }
+    }
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35px;
+      height: 35px;
+      font-size: 0.8em;
+      border-radius: 50%;
+      box-sizing: border-box;
+      line-height: 35px;
+      text-align: center;
+      color: white;
+      background-color: #ececec;
+
+      border: 1px solid transparent;
+    }
+  }
+
+  .checkBoxTitle {
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+}

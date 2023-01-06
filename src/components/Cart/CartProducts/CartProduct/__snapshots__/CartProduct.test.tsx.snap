@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[CartProduct Component should render correctly 1`] = `
+<CartProvider>
+  <CartProduct
+    product={
+      Object {
+        "availableSizes": Array [
+          "S",
+          "L",
+          "XL",
+          "XXL",
+        ],
+        "currencyFormat": "$",
+        "currencyId": "USD",
+        "description": "14/15 s/nº",
+        "id": 0,
+        "installments": 9,
+        "isFreeShipping": true,
+        "price": 10.9,
+        "quantity": 1,
+        "sku": 8552515751438644,
+        "style": "White T-shirt",
+        "title": "Cropped Stay Groovy off white",
+      }
+    }
+  />
+</CartProvider>
+`;

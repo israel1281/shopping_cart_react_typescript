@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[CartProduct Component should render correctly 1`] = `
+<CartProvider>
+  <Cart />
+</CartProvider>
+`;

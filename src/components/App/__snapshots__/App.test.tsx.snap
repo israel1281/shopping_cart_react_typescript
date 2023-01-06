@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="appContainer"
+      >
+        <div
+          class="loaderContainer"
+        >
+          <div
+            class="loader"
+          />
+          <div
+            class="loader"
+          />
+          <div
+            class="loader"
+          />
+          <div
+            class="loader"
+          />
+        </div>
+        <div
+          class="twoColumnGrid"
+        >
+          <div
+            class="side"
+          >
+            <div
+              class="filterContainer"
+            >
+              <h4
+                class="filterTitle"
+              >
+                Sizes:
+              </h4>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="XS"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    XS
+                  </span>
+                </label>
+              </div>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="S"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    S
+                  </span>
+                </label>
+              </div>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="M"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    M
+                  </span>
+                </label>
+              </div>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="ML"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    ML
+                  </span>
+                </label>
+              </div>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="L"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    L
+                  </span>
+                </label>
+              </div>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="XL"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    XL
+                  </span>
+                </label>
+              </div>
+              <div
+                class="checkbox"
+              >
+                <label>
+                  <input
+                    data-testid="check_box"
+                    type="checkbox"
+                    value="XXL"
+                  />
+                  <span
+                    class="checkmark"
+                    data-testid="check_label"
+                  >
+                    XXL
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="main"
+          >
+            <main
+              class="mainHeader"
+            >
+              <p>
+                0
+                 Product(s) found
+              </p>
+            </main>
+            <div
+              class="productsContainer"
+            />
+          </div>
+        </div>
+        <div
+          class="cartContainer"
+          style="right: -550px;"
+        >
+          <button
+            class="cartButton"
+            style="left: -50px; background-color: rgb(0, 44, 65); transition: all 0.3s;"
+          >
+            <div
+              class="cartIcon"
+            >
+              <div
+                class="cartQuantity"
+              >
+                0
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="appContainer"
+    >
+      <div
+        class="loaderContainer"
+      >
+        <div
+          class="loader"
+        />
+        <div
+          class="loader"
+        />
+        <div
+          class="loader"
+        />
+        <div
+          class="loader"
+        />
+      </div>
+      <div
+        class="twoColumnGrid"
+      >
+        <div
+          class="side"
+        >
+          <div
+            class="filterContainer"
+          >
+            <h4
+              class="filterTitle"
+            >
+              Sizes:
+            </h4>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="XS"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  XS
+                </span>
+              </label>
+            </div>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="S"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  S
+                </span>
+              </label>
+            </div>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="M"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  M
+                </span>
+              </label>
+            </div>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="ML"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  ML
+                </span>
+              </label>
+            </div>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="L"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  L
+                </span>
+              </label>
+            </div>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="XL"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  XL
+                </span>
+              </label>
+            </div>
+            <div
+              class="checkbox"
+            >
+              <label>
+                <input
+                  data-testid="check_box"
+                  type="checkbox"
+                  value="XXL"
+                />
+                <span
+                  class="checkmark"
+                  data-testid="check_label"
+                >
+                  XXL
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="main"
+        >
+          <main
+            class="mainHeader"
+          >
+            <p>
+              0
+               Product(s) found
+            </p>
+          </main>
+          <div
+            class="productsContainer"
+          />
+        </div>
+      </div>
+      <div
+        class="cartContainer"
+        style="right: -550px;"
+      >
+        <button
+          class="cartButton"
+          style="left: -50px; background-color: rgb(0, 44, 65); transition: all 0.3s;"
+        >
+          <div
+            class="cartIcon"
+          >
+            <div
+              class="cartQuantity"
+            >
+              0
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
